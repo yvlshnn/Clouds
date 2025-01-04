@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class InputCounter {
 
@@ -22,7 +22,8 @@ public class InputCounter {
             lineCount++;
 
             charCount += inputLine.length();
-es)
+
+            // Split input line by whitespace to count words
             String[] words = inputLine.split("\\s+");
             wordCount += words.length;
         }
